@@ -1,11 +1,11 @@
 package structures;
 
-class Node<T> {
+class Nodo<T> {
     T data;
-    Node<T> next;
-    Node<T> prev;
+    Nodo<T> next;
+    Nodo<T> prev;
 
-    Node(T data) {
+    Nodo(T data) {
         this.data = data;
         this.next = null;
         this.prev = null;
